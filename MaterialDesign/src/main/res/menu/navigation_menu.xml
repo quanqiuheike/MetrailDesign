@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+
+        >
+
+        <item
+            android:id="@+id/navigation_xitu"
+            android:icon="@color/colorPrimary"
+            android:title="稀土" />
+        <item
+            android:id="@+id/navigation_palette"
+            android:icon="@color/colorPrimary"
+            android:title="Palette" />
+        <item
+            android:id="@+id/toolbar"
+            android:icon="@color/colorPrimary"
+            android:title="ToolBar" />
+
+    </group>
+    <item android:title="分享和设置">
+        <menu>
+            <item
+                android:id="@+id/navigation_share"
+                android:icon="@color/colorPrimary"
+                android:title="分享"
+
+                />
+            <item
+                android:id="@+id/navigation_setting"
+                android:icon="@color/colorPrimary"
+                android:title="设置" />
+        </menu>
+    </item>
+    <item android:title="登录和注册">
+        <menu>
+            <item
+                android:id="@+id/navigation_login"
+                android:icon="@color/colorPrimary"
+                android:title="登录" />
+
+            <item
+                android:id="@+id/navigation_register"
+                android:icon="@color/colorPrimary"
+                android:title="注册" />
+        </menu>
+
+
+    </item>
+
+</menu>
